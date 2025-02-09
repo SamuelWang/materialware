@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "lint": "pnpm dlx eslint",
-    "format": "pnpm exec prettier --write",
+    "format": "pnpm exec prettier . --write",
     "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
