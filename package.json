@@ -1,0 +1,11 @@
+{
+  "name": "@materialware/monorepo",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "engines": {
+    "pnpm": ">=9.15.4"
+  }
+}
