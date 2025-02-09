@@ -2,6 +2,7 @@
   "name": "@materialware/monorepo",
   "version": "0.0.1",
   "scripts": {
+    "lint": "pnpm dlx eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "packageManager": "pnpm@9.15.4",
@@ -9,6 +10,10 @@
     "pnpm": ">=9.15.4"
   },
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.23.0"
   }
 }
